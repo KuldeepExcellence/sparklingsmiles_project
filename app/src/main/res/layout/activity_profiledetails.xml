@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profiledetails">
+
+    <TextView
+        android:id="@+id/userdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="User Details"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+   <EditText
+        android:layout_below="@+id/userdetail"
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:hint="name"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:id="@+id/phnum"
+        android:layout_below="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:hint="phone_number"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_below="@+id/phnum"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:hint="e_mail_address"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save_details"
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/email"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="199dp"
+        android:background="@drawable/google_button_border"
+        android:drawablePadding="8.0dip"
+        android:fontFamily="@font/adobe_clean_bold"
+        android:gravity="center"
+        android:paddingStart="@dimen/tour_view_google_button_padding_start"
+        android:text="Save details"
+        android:textAllCaps="false"
+        android:textColor="@color/tour_signin_button_text_color"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

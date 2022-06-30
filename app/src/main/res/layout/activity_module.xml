@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ChooserActivity">
+
+    <TextView
+        android:id="@+id/spoken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spoken English"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/adobe_clean_bold"
+        android:layout_marginBottom="4dp"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="#E3F2FD"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:id="@+id/moduleOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module 1 - M1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/adobe_clean"
+                android:layout_margin="22dp"
+                android:textColor="@color/black"
+                android:textSize="34sp"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="#E3F2FD"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:id="@+id/moduleTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module 2 - M2"
+                android:layout_gravity="center"
+                android:fontFamily="@font/adobe_clean"
+                android:layout_margin="22dp"
+                android:textColor="@color/black"
+                android:textSize="34sp"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        app:cardBackgroundColor="#E3F2FD"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:id="@+id/moduleThree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Module 3 - M3"
+                android:layout_gravity="center"
+                android:fontFamily="@font/adobe_clean"
+                android:layout_margin="22dp"
+                android:textColor="@color/black"
+                android:textSize="34sp"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+<!--    <com.google.android.material.card.MaterialCardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="24dp"-->
+<!--        app:cardBackgroundColor="#E3F2FD"-->
+<!--        app:cardCornerRadius="24dp"-->
+<!--        app:cardElevation="12dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/moduleFour"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:gravity="center">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Module 4"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:fontFamily="@font/adobe_clean"-->
+<!--                android:layout_margin="22dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="34sp"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </com.google.android.material.card.MaterialCardView>-->
+</LinearLayout>
+

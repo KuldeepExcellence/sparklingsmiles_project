@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "431932658533",
+    "project_id": "eotm-51550",
+    "storage_bucket": "eotm-51550.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431932658533:android:26a3bb413f9ce78f8a078c",
+        "android_client_info": {
+          "package_name": "com.sparkling.smile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431932658533-gqq8qv7r9r85js6gb6dd2o21p5461jvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sparkling.smile",
+            "certificate_hash": "039b6b1f26d79431054e983d3504eba5c06d0db2"
+          }
+        },
+        {
+          "client_id": "431932658533-vj79hrhjjk47rhc2hkmil4m39br7qk8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDloxk2jGRBWABPB9kBcBWT-tyLXlIKvCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431932658533-vj79hrhjjk47rhc2hkmil4m39br7qk8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

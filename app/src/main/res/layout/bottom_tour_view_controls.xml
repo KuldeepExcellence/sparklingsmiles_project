@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="@dimen/tour_view_button_margins"
+    android:layout_marginTop="@dimen/tour_view_button_margins_top"
+    android:layout_marginEnd="@dimen/tour_view_button_margins"
+    android:layout_marginBottom="@dimen/tour_view_button_margins"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/continue_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/tour_view_continue_margin_bottom"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/tvContinueButton"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="@dimen/tour_view_button_width_large"
+            android:layout_height="@dimen/tour_view_button_height_large"
+            android:background="@drawable/continue_button_border"
+            android:fontFamily="@font/adobe_clean_bold"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="@color/tour_signup_button_text_color"
+            android:textSize="@dimen/tour_view_login_font_size" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sign_in_container"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/social_providers_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tour_view_button_margins_top"
+            android:fontFamily="@font/adobe_clean_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/social_sign_in_alternative"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tour_view_login_font_size"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/google_sign_in_button_top"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/google_sign_in_button_top"
+            android:layout_width="@dimen/tour_view_button_width_large"
+            android:layout_height="@dimen/tour_view_button_height_large"
+            android:layout_gravity="start|center"
+            android:layout_marginBottom="@dimen/tour_view_social_signin_margin"
+            android:background="@drawable/google_button_border"
+            android:drawableStart="@drawable/scan_google_icon"
+            android:drawablePadding="8.0dip"
+            android:fontFamily="@font/adobe_clean_bold"
+            android:gravity="center"
+            android:paddingStart="@dimen/tour_view_google_button_padding_start"
+            android:paddingEnd="@dimen/tour_view_google_button_padding_start"
+            android:text="Sign in with Google"
+            android:textAllCaps="false"
+            android:textColor="@color/tour_signin_button_text_color"
+            android:textSize="@dimen/tour_view_login_font_size"
+            app:layout_constraintBottom_toTopOf="@id/guest_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/social_providers_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/guest_button"
+            android:layout_width="@dimen/tour_view_button_width_large"
+            android:layout_height="@dimen/tour_view_button_height_large"
+            android:layout_gravity="start|center"
+            android:layout_margin="@dimen/tour_view_social_signin_margin"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/facebook_button_border"
+            android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+            android:drawablePadding="8.0dip"
+            android:fontFamily="@font/adobe_clean_bold"
+            android:gravity="center"
+            android:paddingStart="@dimen/tour_view_button_padding_start"
+            android:paddingEnd="@dimen/tour_view_button_padding_start"
+            android:text="Continue as guest"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tour_view_login_font_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/google_sign_in_button_top" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sahre_apk"
+            android:layout_width="244dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="67dp"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="199dp"
+            android:background="@drawable/google_button_border"
+            android:drawableStart="@drawable/share"
+            android:drawablePadding="8.0dip"
+            android:fontFamily="@font/adobe_clean_bold"
+            android:gravity="center"
+            android:paddingStart="@dimen/tour_view_google_button_padding_start"
+            android:paddingEnd="@dimen/tour_view_google_button_padding_start"
+            android:text="Share with friends"
+            android:textAllCaps="false"
+            android:textColor="@color/tour_signin_button_text_color"
+            android:textSize="@dimen/tour_view_login_font_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guest_button"
+            app:layout_constraintVertical_bias="0.32" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

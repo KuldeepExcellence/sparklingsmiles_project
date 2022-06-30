@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tour_signup_button_background_color">#ff1473e6</color>
+    <color name="tour_signup_button_text_color">#ffffffff</color>
+    <color name="tour_signin_button_text_color">#ff4b4b4b</color>
+    <color name="selector_signing_fb">#ff4271b5</color>
+    <color name="signing_fb_button">#ff3f5d94</color>
+    <color name="selector_signing_google">#ffe2e2e2</color>
+    <color name="signing_google_button">#fff5f5f5</color>
+</resources>

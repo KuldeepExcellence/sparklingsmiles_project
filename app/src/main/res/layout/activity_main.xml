@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <TextView-->
+<!--        android:id="@id/title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="@dimen/tour_view_text_title_margin_top"-->
+<!--        android:fontFamily="@font/adobe_clean_regular"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/tour_title_1"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="@dimen/tour_view_text_title_font_size"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/description"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="@dimen/tour_view_text_body_margin_left_right"-->
+<!--        android:layout_marginTop="@dimen/tour_view_text_body_margin_top"-->
+<!--        android:layout_marginEnd="@dimen/tour_view_text_body_margin_left_right"-->
+<!--        android:layout_marginBottom="10.0dip"-->
+<!--        android:ellipsize="end"-->
+<!--        android:fontFamily="@font/adobe_clean_light_regular"-->
+<!--        android:gravity="center|top"-->
+<!--        android:scrollbars="vertical"-->
+<!--        android:text="@string/tour_description_1"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="@dimen/tour_view_text_body_font_size"-->
+<!--        app:layout_constrainedHeight="true"-->
+<!--        app:layout_constrainedWidth="true"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/bottomTourViewControl"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/title"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgroundpicture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <include
+        android:id="@+id/bottomTourViewControl"
+        layout="@layout/bottom_tour_view_controls"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="550dp"
+        />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/legal_statement_text"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/tour_view_develop_options_layout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+</RelativeLayout>

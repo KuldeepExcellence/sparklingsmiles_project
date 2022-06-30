@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_focused="false" android:state_pressed="true">
+		<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+			<corners android:radius="@dimen/subscribe_button_radius" />
+			<solid android:color="@color/selector_signing_fb" />
+		</shape>
+	</item>
+	<item android:state_focused="true">
+		<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+			<corners android:radius="@dimen/subscribe_button_radius" />
+			<solid android:color="@color/selector_signing_fb" />
+		</shape>
+	</item>
+	<item>
+		<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+			<corners android:radius="@dimen/subscribe_button_radius" />
+			<solid android:color="@color/signing_fb_button" />
+		</shape>
+	</item>
+</selector>

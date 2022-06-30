@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="legal_statement_font_size">9.0sp</dimen>
+    <dimen name="legal_statement_margin_bottom">25.0dip</dimen>
+    <dimen name="legal_statement_margin_top">15.0dip</dimen>
+    <dimen name="subscribe_button_height">40.0dip</dimen>
+    <dimen name="subscribe_button_margin_from_bottom">10.0dip</dimen>
+    <dimen name="subscribe_button_margin_from_left_end">30.0dip</dimen>
+    <dimen name="subscribe_button_margin_from_right_end">30.0dip</dimen>
+    <dimen name="subscribe_button_padding_bottom">9.0dip</dimen>
+    <dimen name="subscribe_button_padding_top">8.0dip</dimen>
+    <dimen name="subscribe_button_radius">20.0dip</dimen>
+    <dimen name="subscribe_button_row_header_margin">10.0dip</dimen>
+    <dimen name="subscribe_button_width">264.0dip</dimen>
+    <dimen name="tour_view_already_have_adobe_id_font_size">12.0sp</dimen>
+    <dimen name="tour_view_already_have_adobe_id_margin_top">30.0dip</dimen>
+    <dimen name="tour_view_apple_button_padding_start">14.0dip</dimen>
+    <dimen name="tour_view_button_height_large">40.0dip</dimen>
+    <dimen name="tour_view_button_margins">18.0dip</dimen>
+    <dimen name="tour_view_button_margins_top">16.0dip</dimen>
+    <dimen name="tour_view_button_padding_start">20.0dip</dimen>
+    <dimen name="tour_view_button_width_large">240.0dip</dimen>
+    <dimen name="tour_view_continue_margin_bottom">109.0dip</dimen>
+    <dimen name="tour_view_google_button_padding_start">19.0dip</dimen>
+    <dimen name="tour_view_login_font_size">15.0sp</dimen>
+    <dimen name="tour_view_sign_in_or_sign_up_margin_bottom">17.0dip</dimen>
+    <dimen name="tour_view_social_signin_margin">8.0dip</dimen>
+    <dimen name="tour_view_text_body_font_size">15.0sp</dimen>
+    <dimen name="tour_view_text_body_margin_left_right">48.0dip</dimen>
+    <dimen name="tour_view_text_body_margin_top">8.0dip</dimen>
+    <dimen name="tour_view_text_padding_start">20.0dip</dimen>
+    <dimen name="tour_view_text_title_font_size">22.0sp</dimen>
+    <dimen name="tour_view_text_title_margin_top">58.0dip</dimen>
+</resources>

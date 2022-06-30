@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">eotM</string>
+    <string name="tour_description_1">Learning another language is not only learning different words for the same things, but learning another way to think about things.</string>
+    <string name="tour_sign_in_or_sign_up">Sign in or sign up.</string>
+    <string name="social_sign_in_alternative">Sign in with</string>
+    <string name="tour_title_1">Each One Teach Many</string>
+    <string name="sign_in_legal_statement_text">We collect analytics to improve your experience.</string>
+    <string name="plan_desc">Choose a subscription plan to unlock the video content of module</string>
+</resources>
